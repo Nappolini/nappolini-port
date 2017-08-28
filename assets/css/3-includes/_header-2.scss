@@ -1,0 +1,53 @@
+.header2{
+    font-family: $play-fair;   
+}
+
+.header2--title{
+    font-size: 4em;
+    font-style: italic;
+}
+
+.header2--p{
+    color: $grey; 
+}
+
+// styles for 600px and up 
+
+@media (min-width: 600px){
+    .header2{
+        min-height: 75vh; 
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+     .header2--col--1{
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         flex-direction: column;  
+     }
+
+    .header2--subtitle{
+        margin-top: 25px;
+        width: 70%; 
+        font-size: 1.25em;
+    }
+
+    .header2--col--2{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        width: 100%; 
+        margin-top: 45px;
+     }
+
+    .header2--subtitle {
+        margin-top: 100px; 
+    }
+     .header2--p{
+         margin-top: -50px;
+         font-family: $open-sans;
+         width: 90%; 
+     }
+
+}

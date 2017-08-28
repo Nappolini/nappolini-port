@@ -1,0 +1,148 @@
+.port-intro{
+    border-bottom: 2px solid $blue; 
+    width: 25%; 
+    margin-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+button{
+    background: none;
+    border: none;
+    text-align: left; 
+    margin: 0px;
+}
+
+
+.italic-title{
+    font-family: $play-fair;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+
+    &:hover{
+        color: $blue; 
+    }
+}
+
+
+
+.accordion {
+    margin-left: -7px; 
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.6s ease-in-out;
+}
+
+// .accordion.active, .accordion:hover {
+//    background-color: $blue;
+//    opacity: .1;
+// }
+
+.accordion:after {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -75px; 
+    content: '\002B';
+    font-size: 2.5rem;
+    color: #777;
+
+
+   
+}
+
+
+.accordion.active:after {
+    content: "\2212";
+    font-size: 2.5rem;
+    color: $blue;
+}
+
+.panel {
+    padding: 20px 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-out;
+
+}
+
+
+// styles for 600px and above 
+
+@media (min-width: 800px){
+
+
+    .port, 
+    .drop-down-wrapper{
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+    .drop-down-wrapper{
+        height: 6000px;
+        display: flex;
+    }
+    .port--col--1{
+        display: flex;
+        flex-basis: 100%; 
+        flex-direction: column;
+        flex-grow: 1; 
+    }
+
+      .port--col--2{
+        display: flex;
+        flex-basis: 50%; 
+        flex-grow: 1; 
+    }
+
+    .port--tech{
+        display: flex;
+        width: 50%; 
+        height: 150px; 
+        margin-top: 50px; 
+       
+    }
+    
+
+    .port--client{
+        width: 100%; 
+ 
+
+        h3{
+            font-family: $play-fair; 
+            margin-bottom: 10px; 
+        }
+
+        p{
+            font-family: $open-sans;
+            color: $grey;
+        }
+    }
+
+    .port--p{
+        font-family: $open-sans; 
+        color: $grey; 
+        width: 90%;
+
+        p{
+            margin-top: 25px; 
+        }
+    }
+
+    .img-1{
+        margin: 50px 0px 50px 0px; 
+        height: 500px; 
+        width: 100%; 
+        background-color: pink;
+    }
+  
+
+}

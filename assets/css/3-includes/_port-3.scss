@@ -1,0 +1,82 @@
+
+
+.italic3-title{
+    font-family: $play-fair;
+    font-style: italic;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+
+
+// styles for 600px and above 
+
+@media (min-width: 800px){
+
+    .port3{
+        //  margin-top: 150px; 
+    }
+   
+    .drop3-down-wrapper{
+        display: flex;
+        flex-wrap: wrap; 
+        margin-top: 75px;
+    }
+
+
+    .port3--col--1{
+        display: flex;
+        flex-basis: 100%; 
+        flex-direction: column;
+        flex-grow: 1; 
+    }
+
+      .port3--col--2{
+        display: flex;
+        flex-basis: 50%; 
+        flex-grow: 1; 
+    }
+
+    .port3--tech{
+        display: flex;
+        width: 50%; 
+        height: 150px; 
+        margin-top: 50px; 
+       
+    }
+    
+
+    .port3--client{
+        width: 100%; 
+ 
+
+        h3{
+            font-family: $play-fair; 
+            margin-bottom: 10px; 
+        }
+
+        p{
+            font-family: $open-sans;
+            color: $grey;
+        }
+    }
+
+    .port3--p{
+        font-family: $open-sans; 
+        color: $grey; 
+        width: 90%;
+
+        p{
+            margin-top: 25px; 
+        }
+    }
+
+    .img-1{
+        margin: 50px 0px 50px 0px; 
+        height: 500px; 
+        width: 100%; 
+        background-color: pink;
+    }
+  
+
+}
