@@ -1,7 +1,17 @@
 Base Atomic CSS     
 =============================
 
-This is the start of the Base Atomic CSS for rapid prototyping 
+This is the start of the Base Atomic CSS for rapid prototyping. The idea behind this project is to provide a base set of utility classes that can be eaisily added to a new or existing project. It is designed to be modular so if you dont use a set of utility classes remove it from the import statement on the _utility-dir.scss file. 
+
+
+This is a starter file that inludes: 
+1. Jekyll 
+2. Gulp
+    Browser sync 
+    Autoprefix
+    Pug 
+3. Atomic utlility classes 
+
 
 ### Margin
 
@@ -56,6 +66,8 @@ This is the start of the Base Atomic CSS for rapid prototyping
 .txt-r{ text-align: right;}
 
 .txt-c{ text-align: center; }
+
+.txt-dec-none { text-decoration: none; }
 ```
 
 ## Display
@@ -69,15 +81,18 @@ This is the start of the Base Atomic CSS for rapid prototyping
 .block{ display: block}; 
 
 
+
 ```
 
 ## colors
 ```css
 .off-white{ background-color: #F0FFFF; }
 
+.white{ background-color: #FFFFFF; }
+
 .black{ background-color: #000000; }
 
-.aqua{ background-color: 	#00FFFF; }
+.aqua{ background-color:#00FFFF; }
 
 .cyan{ background-color: #00FFFF; }
 
@@ -86,6 +101,20 @@ This is the start of the Base Atomic CSS for rapid prototyping
 .dark-orange{ background-color: #FF8C00; }
 
 .deep-pink{ background-color: 	#FF1493; }
+
+.light-blue{ background-color: 	#bfd7ff; }
+
+.pale-green{ background-color: 	#b5e0b1; }
+
+.army-green{ background-color: 	#699165 }
+
+.dark-red{ background-color: 	#681a0a; }
+
+.gold{ background-color: 	#aa721e; }
+
+
+
+
 ```
 
 ### OverFlow 
@@ -95,4 +124,10 @@ This is the start of the Base Atomic CSS for rapid prototyping
 .overflow-x-s { overflow-x: scroll; }
 
 .overflow-y-s { overflow-y: scroll; }
+```
+
+
+### list
+```css
+.list-sn { list-style: none; }
 ```
