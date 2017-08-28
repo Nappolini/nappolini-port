@@ -1,5 +1,70 @@
-h1 {
-  font-size: 2em; }
+body {
+  margin: 0px; }
 
 h1 {
-  color: #F0FFFF; }
+  font-size: 2em;
+  margin: 0px; }
+
+h2 {
+  font-size: 1.75em;
+  margin: 0px; }
+
+h3 {
+  font-size: 1.5em;
+  margin: 0px; }
+
+p {
+  margin: 0px; }
+
+body {
+  background-color: #f7f7f7; }
+
+@media (min-width: 600px) {
+  .page-wrap {
+    width: 75%;
+    margin: 0 auto; } }
+
+.header {
+  font-family: "Playfair Display", serif; }
+
+.header--title {
+  font-size: 4em; }
+
+.header--p {
+  color: #6d6d6d; }
+
+@media (min-width: 600px) {
+  .header {
+    height: 100vh;
+    display: -ms-flexbox;
+    display: flex; }
+  .header--col--1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .header--subtitle {
+    margin-top: 25px;
+    width: 70%;
+    font-size: 1.25em; }
+  .header--col--2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%; }
+  .header--p {
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    width: 70%; }
+  .iphone-ipad-mockup {
+    background-color: red; } }

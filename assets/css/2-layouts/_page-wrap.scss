@@ -1,0 +1,14 @@
+
+
+body{
+    background-color: #f7f7f7;
+}
+// Styles for 600px and above 
+@media (min-width: 600px ){
+    
+  .page-wrap{
+        width: 75%; 
+        margin: 0 auto; 
+
+    }
+}
