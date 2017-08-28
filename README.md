@@ -17,9 +17,9 @@ This is a starter file that inludes:
 ```scss
 $off-white: #F0FFFF; 
 
-$white:#FFFFFF; 
+$white: #FFFFFF; 
 
-$black:000000; 
+$black: #000000; 
 
 $aqua: #00FFFF; 
 
@@ -40,5 +40,13 @@ $army-green:#699165;
 $dark-red: #681a0a; 
 
 $gold: #aa721e; 
+
+```
+
+#Google Fonts  
+```scss
+
+$play-fair: 'Playfair Display', serif;
+$open-sans: 'Open Sans', sans-serif;
 
 ```
