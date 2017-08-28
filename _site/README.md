@@ -84,36 +84,33 @@ This is a starter file that inludes:
 
 ```
 
-## colors
-```css
-.off-white{ background-color: #F0FFFF; }
+## SCSS color Variables 
+```scss
+$off-white: #F0FFFF; 
 
-.white{ background-color: #FFFFFF; }
+$white:#FFFFFF; 
 
-.black{ background-color: #000000; }
+$black:000000; 
 
-.aqua{ background-color:#00FFFF; }
+$aqua: #00FFFF; 
 
-.cyan{ background-color: #00FFFF; }
+$cyan:#00FFFF; 
 
-.crimson{ background-color: #DC143C; }
+$crimson:#DC143C; 
 
-.dark-orange{ background-color: #FF8C00; }
+$dark-orange:#FF8C00; 
 
-.deep-pink{ background-color: 	#FF1493; }
+$deep-pink:#FF1493; 
 
-.light-blue{ background-color: 	#bfd7ff; }
+$light-blue:#bfd7ff; 
 
-.pale-green{ background-color: 	#b5e0b1; }
+$pale-green:#b5e0b1; 
 
-.army-green{ background-color: 	#699165 }
+$army-green:#699165;
 
-.dark-red{ background-color: 	#681a0a; }
+$dark-red: #681a0a; 
 
-.gold{ background-color: 	#aa721e; }
-
-
-
+$gold: #aa721e; 
 
 ```
 
