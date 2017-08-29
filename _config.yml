@@ -4,4 +4,4 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 
 baseurl: /nappolini-port/
-url: https://nappolini.github.io/
+url: https://nappolini.github.io
