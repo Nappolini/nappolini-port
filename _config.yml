@@ -1,4 +1,4 @@
 name: Mauro Nappolini Portfolio
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-url:  https://nappolini.github.io/nappolini-port/
+source:  https://nappolini.github.io/nappolini-port/
