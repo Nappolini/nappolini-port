@@ -104,7 +104,8 @@ p {
   .header2--subtitle {
     margin-top: 25px;
     width: 70%;
-    font-size: 1.25em; }
+    font-size: 1.25em;
+    line-height: 2.5rem; }
   .header2--col--2 {
     display: -ms-flexbox;
     display: flex;
@@ -119,7 +120,8 @@ p {
   .header2--p {
     margin-top: -50px;
     font-family: "Open Sans", sans-serif;
-    width: 90%; } }
+    width: 90%;
+    line-height: 1.75rem; } }
 
 h1 {
   margin: 0px; }
@@ -343,6 +345,7 @@ button {
       color: #6d6d6d; }
   .port3--p {
     font-family: "Open Sans", sans-serif;
+    line-height: 2rem;
     color: #6d6d6d;
     width: 90%; }
     .port3--p p {
