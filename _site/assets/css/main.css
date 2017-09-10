@@ -82,8 +82,8 @@ p {
   font-size: 4em;
   font-style: italic; }
 
-.header2--p {
-  color: #6d6d6d; }
+.header2--subtitle {
+  color: #607D8B; }
 
 @media (min-width: 600px) {
   .header2 {
